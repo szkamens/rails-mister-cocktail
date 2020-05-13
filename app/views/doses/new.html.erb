@@ -2,4 +2,6 @@
 
 <%= render 'form', dose: @dose %>
 
-<%= link_to 'Go Back', cocktails_path %>
+  <%= link_to cocktails_path do %>
+    <i class="fa fa-history"></i> Back to list
+  <% end %>
